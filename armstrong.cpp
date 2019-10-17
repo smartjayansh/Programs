@@ -6,7 +6,7 @@ int main()
   cout << "Enter a positive  integer: ";
   cin >> origNum;
   num = origNum;
-  while(num == 0)
+  while(num != 0)
   {
       rem = num % 10;
       sum += rem * rem * rem;
